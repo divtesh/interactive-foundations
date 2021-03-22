@@ -1,0 +1,43 @@
+
+.type{
+    position: relative;
+    width: 150px;
+    height: 200px;
+}
+
+
+.square{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #00FF38;
+	border: 0.25px solid #A9A9A9;
+}
+
+.sq1{
+	left: 0;
+	top: 0;
+	border-top-left-radius: 40px;
+}
+
+
+.sq2{
+	left: 40px;
+	top: 0;
+
+}
+
+.sq3{
+	left: 80px;
+	border-top-right-radius: 40px;
+}
+
+#d{
+	transform: rotate(90deg);
+}
+
+
+.type:hover .square{
+	border-right: 5px solid #133310;
+	/*box-shadow*/
+}

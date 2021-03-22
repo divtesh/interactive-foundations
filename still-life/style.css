@@ -1,0 +1,53 @@
+body{
+  background: yellow;
+}
+
+
+#rocket {
+    position: relative;
+    left: 175px;
+    top: 150px;
+    width: 600px;
+    height: 600px;
+    background: lightgrey;
+}
+
+#rocket:hover{
+  transform: translateY(50px);
+}
+
+.triangle-up {
+    width: 0;
+    height: 50px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    position: relative;
+    left: 240px;
+}
+/*.triangle-up:hover {
+  border-bottom-color: white;
+}*/
+
+.rectangle {
+    width: 100px;
+    height: 200px;
+    background: #3f51b5;
+    position: relative;
+    left: 240px;
+}
+.rectangle:hover{
+  font-size: 60px
+}
+.trapezoid {
+    border-bottom: 100px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+    position: relative;
+    left: 215px;
+}
+.trapezoid:hover{
+  font-size: 60px
+}
