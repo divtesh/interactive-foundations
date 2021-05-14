@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+  <title>final zine</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Speed Age<span>.</span></a>
+    <ul class="navigation">
+      <li><a href="banner">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#cars">Cars</a></li>
+      <li><a href="experts">experts</a></li>
+      <li><a href="brief">Brief</a></li>
+      <li><a href="designer">Designer</a></li>
+    </ul>
+  </header>
+ 
+  <section class="banner" id="banner">
+    <div class="content">
+      <h2> Evolution of cars</h2>
+      <p> This whole zine is going to be about the evolution of cars, you will get to see different scrolling pages which would include an about page, a page about the cars, a page about the experts that are very good at this knowledge, and in the end it will have a brief about cars in the past, present and future.</p>
+<a href="#" class="btn">more knowledge</a>
+</div>
+</section>
+
+<section class="about" id="about">
+  <div class="row">
+    <div class="co150">
+      <h2 class="titletext"><span>A</span>bout</h2>
+      <p>When you think of the very first car, what do you imagine? Maybe a car made out of tree branches with stone wheels, powered by Fred Flintstone’s feet? Or a quaint little buggy with thin, oversized tires driven by a man wearing a top hat? 
+      What did the very first cars look like, and how have they changed over the years? They’re probably a little different than you’d think!</p>
+    </div>
+    <div class="co150">
+      <div class="imgBx">
+        <img src="about.jpeg">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cars" id="cars">
+  <div class="title">
+    <h2 class="titletext"><span>C</span>ars</h2>
+    <p> Below you can see a timeline of cars from left to right and same in the bottom.</p>
+  </div>
+  <div class="content">
+    <div class="box">
+      <div class="imgBx">
+        <img src= "steam.jpeg">
+      </div>
+      <div class="text">
+        <h3>First Steam engine car</h3>
+      </div>
+    </div>
+       <div class="box">
+      <div class="imgBx">
+        <img src= "hybrid.jpeg">
+      </div>
+      <div class="text">
+        <h3>First Hybrid engine car</h3>
+      </div>
+    </div>
+       <div class="box">
+      <div class="imgBx">
+        <img src= "gas.jpeg">
+      </div>
+      <div class="text">
+        <h3>First gas engine car</h3>
+      </div>
+    </div>
+       <div class="box">
+      <div class="imgBx">
+        <img src= "diesel.jpeg">
+      </div>
+      <div class="text">
+        <h3>First diesel engine car</h3>
+      </div>
+    </div>
+       <div class="box">
+      <div class="imgBx">
+        <img src= "electric.jpeg">
+      </div>
+      <div class="text">
+        <h3>First electric car</h3>
+      </div>
+    </div>
+       <div class="box">
+      <div class="imgBx">
+        <img src= "future.jpeg">
+      </div>
+      <div class="text">
+        <h3>cars in the future</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script type="text/javascript">
+  window.addEventListener("scroll",function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  })
+</script>
+
+</body>
+</html>
